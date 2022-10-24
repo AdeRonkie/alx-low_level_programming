@@ -10,6 +10,6 @@ void puts2(char *str);
 void puts_half(char *str); 
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
-void puts2char(char *str)
+void puts2char(char *str);
 int _atoi(char *s);
 #endif 
