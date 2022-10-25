@@ -14,7 +14,7 @@ len = 0;
 f = 0;
 digit = 0;
 while (s[len] != '\0')
-len++
+len++;
 while (i < len && f == 0)
 {
 if (s[i] == '-')
