@@ -1,0 +1,1 @@
+Pointers_array strings
