@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -22,9 +23,9 @@ char *_strdup(char *str)
 
 	for (i = 0; *(str + i) != '\0'; i++)
 		;
-	{
-		s[i] = *(str + i);
-	}
 	s[i] = *(str + i);
+	{
+	s[i] = *(str + i);
+	}
 	return (s);
 }
